@@ -83,7 +83,7 @@ main {
 /* MODAL */
 
 .modal {
-    display: block;
+    display: none;
     position: fixed;
     right: 0;
     left: 0;
