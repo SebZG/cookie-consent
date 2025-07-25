@@ -1,0 +1,187 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #222;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+ul {
+    list-style: none;
+    padding: 5px 0 0 0;
+}
+
+li {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.li-green {
+    background-color: #E5FDEA
+}
+
+.li-yellow {
+    background-color: #FCFDD6
+}
+
+.li-blue {
+    background-color: #E5F9FE
+}
+
+.li-pink {
+    background-color: #FCF1FE
+}
+
+/*  LAYOUT */
+
+img {
+    width: 100%;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* MODAL */
+
+.modal {
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    box-shadow: 0 0 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.modal-body {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.modal-body-loading {
+    text-align: center;
+}
+
+/* MODAL BUTTONS */
+
+.close-modal-btn-container {
+    text-align: right;
+    margin: 9px;
+}
+
+.close-modal-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: whitesmoke;
+}
+
+.close-modal-btn:hover,
+.close-modal-btn:active {
+    color: red;
+    cursor: pointer;
+}
+
+.close-modal-btn:disabled {
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.modal-choice-btns {
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btn {
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.modal-btns-reverse {
+    flex-direction: row-reverse;
+}
+
+/* MODAL INPUT */
+
+input {
+    margin-top: 10px;
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+/* MODAL AFTER SUBMIT */
+
+.loading {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-display-name {
+    color: fuchsia;
+}
+
+.modal-text {
+    height: 140px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.idiot-gif {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.idiot-gif img {
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+}
